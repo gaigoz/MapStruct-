@@ -3,7 +3,6 @@
 # Trabalho Prático 1
 
 <div style="text-align: justify">
-
     O primeiro trabalho prático da disciplina tem como objetivo aprofundar o conhecimento relacionado aos tópicos abordados até o momento, que incluem o modelo cliente/servidor e P2P utilizando programação com Sockets.
 
 </div>
