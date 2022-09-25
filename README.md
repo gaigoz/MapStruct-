@@ -7,23 +7,18 @@
 </div>
 
 <div style="text-align: justify">
-
-    A sua tarefa consiste na implementação de um sistema P2P básico, que deve ser organizado como uma arquitetura centralizada, onde o controle de toda a aplicação (lógica e estado) é concentrado em um computador servidor. Um único programa deve ser utilizado, e o mesmo pode ser configurado em um dos dois modos de operação (servidor / peer). Para isso, pode-se passar essa informação como parâmetro durante a carga do programa, juntamente com outras informações de configuração. As seguintes funcionalidades devem ser implementadas:
-    
+    A sua tarefa consiste na implementação de um sistema P2P básico, que deve ser organizado como uma arquitetura centralizada, onde o controle de toda a aplicação (lógica e estado) é concentrado em um computador servidor. Um único programa deve ser utilizado, e o mesmo pode ser configurado em um dos dois modos de operação (servidor / peer). Para isso, pode-se passar essa informação como parâmetro durante a carga do programa, juntamente com outras informações de configuração. As seguintes funcionalidades devem ser implementadas:    
 </div>
 
 <div style="text-align: justify">
-
     - [x] Os peers devem se registrar no servidor P2P para poderem resalizar a troca de informações.
 </div>
 
 <div style="text-align: justify">
-
     - [x] Durante o registro, um cliente informa os recursos disponíveis. Os recursos são definidos por um diretório com diversos arquivos, que serão abertos um a um e terão sua hash calculada. Para cada arquivo, forneça ao servidor o seu nome e sua hash (metadados).
 </div>
 
 <div style="text-align: justify">
-
     - [x] O servidor associa os metadados de cada recurso em uma estrutura de dados adequada, juntamente com informações sobre a origem de cada recurso (identificação do peer, como IP e porta).
 </div>
 
